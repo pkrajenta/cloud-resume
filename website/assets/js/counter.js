@@ -1,5 +1,5 @@
 const counter = document.querySelector(".counter-number");
-
+console.log("couter up");
 async function updateCounter() {
     try {
         let response = await fetch("https://ilxohwloodyhxldaua2pq6qbpu0ldfdj.lambda-url.eu-central-1.on.aws/");
